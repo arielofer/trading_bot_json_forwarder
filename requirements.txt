@@ -1,0 +1,5 @@
+requests
+uvicorn
+google-api-python-client
+google-auth-httplib
+google-auth-oathlib
