@@ -7,7 +7,7 @@ def delete_messages(service, message):
     # service.users().messages().delete(userId='me', id=msg['id'])
     # but it's also possible to delete all the selected messages with
     # one query, batchDelete
-    if messages_to_delete:
+    if message:
         print("[INFO]: deleting message")
         service.users().messages().trash(userId='me', id=message['id']).execute()
     else:
