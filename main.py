@@ -46,7 +46,7 @@ def main():
 
                         # # delete the message
                         print("[INFO]: going to deletion phase")
-                        delete_message(service, msg)
+                        delete_messages(service, msg)
                     else:
                         print("[ERROR]: the message wasn't sent properly"
                               " check the reciever url inserted is correct")
